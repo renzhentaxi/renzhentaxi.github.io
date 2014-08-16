@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> wtvr </title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="sophia.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="headerbg">
+            <img src="img/rsz_handicap.png"></img>
+            <h1> MetroAid </h1>
+        </div>
+    </header>
+   
+    <!-- question div / actual body -->
+    <div id="main">
+        <h4> Enter your current address bellow: </h4>
+        <input id="start" type="text" value="2474 CROTONA AVE, Bronx, New York 1045"></input>
+        <h4> Enter the address of your destination bellow: </h4>
+        <input id="end" type="text" value="1236 E 72ND ST, Georgetown, New York 11234"></input>
+        <br/>
+        <input type="button" value = "submit" onclick="calcRoute()"></input>
+    </div>
+    
+<div id="map-canvas"> </div>
+
+</body>
+</html>
