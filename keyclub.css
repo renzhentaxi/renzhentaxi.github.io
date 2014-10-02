@@ -1,0 +1,105 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato',sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  height: 100%;
+  color: #fff;
+  background: #fbfbfb;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transition: all 0.3s ease-in-out; }
+
+h1, h2,.center {
+  text-align: center; }
+
+h2 {
+  color: #276FBF; }
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto; }
+header {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  background: #4A78FF; }
+  header h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0); }
+
+nav {
+  background: #fff;
+  clear: both;
+  overflow: hidden; }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      float: left; }
+      nav ul li a {
+        display: block;
+        padding: 25px 20px;
+        text-decoration: none;
+        color: #4A78FF;
+        font-weight: normal; }
+        nav ul li a:hover {
+          background: #eee; }
+
+section {
+  width: 100%;
+  height: 50%;
+  color: #444; }
+  section article {
+    padding: 50px 0; }
+
+section:nth-of-type(odd) {
+  background: #fff; }
+
+/*helper*/
+.isFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 0 #eee; }
+
+.whiteSpace {
+  margin-top: 60px;
+  -webkit-transition: none;
+  transition: none; }
+
+/*font-face*/
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://themes.googleusercontent.com/static/fonts/lato/v6/boeCNmOCCh-EWFLSfVffDg.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format("woff"); }
