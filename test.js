@@ -126,12 +126,6 @@
                 createText("Searching".toUpperCase());
 
         });
-        document.getElementById("FBB").addEventListener("mouseover", createText("FACEBOOK"));
-        document.getElementById("TB").addEventListener("mouseover", createText("TWITTER"));
-        document.getElementById("IGB").addEventListener("mouseover", createText("Instagram"));
-        document.getElementById("GHB").addEventListener("mouseover", createText("GITHUB"));
-        document.getElementById("SCB").addEventListener("mouseover", createText("SOUNDCLOUD"));
-        document.getElementById("REB").addEventListener("mouseover", createText("REDDIT"));
     }
 
     function createText(t) {
