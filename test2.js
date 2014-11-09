@@ -21,9 +21,9 @@
 
     function initCircles() {
         circles = [];
-        for(var i=0; i<100; i++) {
+        for(var i=0; i<10; i++) {
             var circle = new createjs.Shape();
-            var r = 30;
+            var r = 300;
             var x = window.innerWidth*Math.random();
             var y = window.innerHeight*Math.random();
             var color = colors[Math.floor(i%colors.length)];
