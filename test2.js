@@ -23,11 +23,11 @@
         circles = [];
         for(var i=0; i<600; i++) {
             var circle = new createjs.Shape();
-            var r = 7;
+            var r = 10;
             var x = window.innerWidth*Math.random();
             var y = window.innerHeight*Math.random();
             var color = colors[Math.floor(i%colors.length)];
-            var alpha = 0.2 + Math.random()*0.5;
+            var alpha = .1*Math.random()*0.5;
             circle.alpha = alpha;
             circle.radius = r;
             circle.graphics.beginFill(color).drawCircle(0, 0, r);
