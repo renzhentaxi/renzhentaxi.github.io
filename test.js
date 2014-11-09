@@ -41,7 +41,7 @@
 
     function initCircles() {
         circles = [];
-        for(var i=0; i<1200; i++) {
+        for(var i=0; i<600; i++) {
             var circle = new createjs.Shape();
             var r = 7;
             var x = window.innerWidth*Math.random();
@@ -129,7 +129,7 @@
     }
 
     function createText(t) {
-        var fontSize = 150;
+        var fontSize = 100;
         text.text = t;
         text.font = "900 "+fontSize+"px 'Source Sans Pro'";
         text.textAlign = 'center';
