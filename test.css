@@ -1,43 +1,37 @@
 body {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  background: #eee;
 }
 
-.row {
-  background-color: #1ea2eb;
-  color: white;
-  text-align: center;
-  display: table;
-  min-width:101%;
-  height: 90vh;
-}
-.row:nth-of-type(2n) {
-  background-color: #983379;
-}
-section.hero {
-  background-color: #bed600;
-}
-section h1 {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 56px;
+* {
+  position: absolute;
+  margin: 0; padding: 0;
 }
 
-nav {
-  min-height: 10vh;
-  width: 100%;
-  background-color: #111;
-  color: white;
+input[type="text"] {
+  border: 1px solid #ddd;
+  padding: 6px;
+  font-size: 18px;
+  width: 200px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  top: 30px;
+  left: 130px;
 }
-nav.sticky {
-  position: fixed;
-  top: 0;
+
+input[type="submit"] {
+  display: block;
+  width: 100px;
+  border: 0;
+  line-height: 35px;
+  height: 35px;
+  color: #fff;
+  background: mediumpurple;
+  font-size: 18px;
+  top: 30px;
+  left: 350px;
+  cursor: pointer;
 }
-nav li {
-  display: inline-block;
-  line-height: 11vh;
-  padding: 0 40px;
-  border-right: 1px solid #1f1f1f;
-  margin: 0;
+
+form {
+  width: 600px;
+  height: 100px;
 }
