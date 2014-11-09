@@ -10,6 +10,8 @@ body {
 input[type="text"]{
   border: 1px solid #ddd;
   padding: 6px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 18px;
   width: 200px;
   text-transform: uppercase;
