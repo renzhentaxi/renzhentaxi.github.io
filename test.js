@@ -1,4 +1,4 @@
-(function(){
+
     var stage, textStage, form, input;
     var circles, textPixels, textFormed;
     var offsetX, offsetY, text;
@@ -156,4 +156,3 @@
 
 
     window.onload = function() { init() };
-})();
