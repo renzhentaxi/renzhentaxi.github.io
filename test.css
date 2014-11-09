@@ -19,11 +19,11 @@ input[type="text"]{
   left: 130px;
 }
 #T{
-  top:20px;
+  top:-10px;
   left: 130px;
 }
 #Git{
-  top:10px;
+  top:-50px;
   left: 130px;
 }
 input[type="submit"] {
@@ -35,8 +35,8 @@ input[type="submit"] {
   color: #fff;
   background: mediumpurple;
   font-size: 18px;
-  top: 30px;
-  left: 350px;
+  top: 70px;
+  left: 130px;
   cursor: pointer;
 }
 
