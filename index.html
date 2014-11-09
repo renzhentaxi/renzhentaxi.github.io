@@ -10,18 +10,30 @@
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/TweenLite.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/easeljs-0.7.1.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/requestAnimationFrame.js"></script>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <body>
       <canvas id="text" width="1000" height="100">
       </canvas>
       <canvas id="stage" width="1000" height="100">
       </canvas>
-      <form id="form">
-        <input type="text" id="Fb" value="Facebook 1name" />
-        <input type="text" id="T" value="Twitter name" />
-        <input type="text" id="Git" value="Github name" />
-        <input type="text" id="IG" value="InstaGram name" />
-        <input type="text" id="SC" value="SoundCloud name" />
-        <input type="text" id="RE" value="Redit name" />
+      <form class="pure-form pure-form-aligned" id="form">
+        <fieldset>
+          <input type="text" id="IG" value="InstaGram name" />
+          <input type="text" id="SC" value="SoundCloud name" />
+          <input type="text" id="RE" value="Reddit name" />
+          <div class="pure-control-group">
+            <label for="name">Username</label>
+            <input id="Fb" type="text" placeholder="Username">
+          </div>
+          <div class="pure-control-group">
+            <label for="name">Username</label>
+            <input id="T" type="text" placeholder="Username">
+          </div>
+          <div class="pure-control-group">
+            <label for="name">Username</label>
+            <input id="Git" type="text" placeholder="Username">
+          </div>
+        </fieldset>
         
         <input type="submit" value="Search" />
       </form>
