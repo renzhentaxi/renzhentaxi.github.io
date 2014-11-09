@@ -127,6 +127,10 @@
 
         });
     }
+    document.addEventListener("click", function(e){
+         e.preventDefault();
+                createText("Searching".toUpperCase());
+    });
 
     function createText(t) {
         var fontSize = 860/(t.length);
