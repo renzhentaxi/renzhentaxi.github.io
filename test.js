@@ -18,8 +18,8 @@
         offsetX = (window.innerWidth-600)/2;
         offsetY = (window.innerHeight-300)/2;
         textStage = new createjs.Stage("text");
-        textStage.canvas.width = 1000;
-        textStage.canvas.height = 200;
+        textStage.canvas.width = window.innerWidth;
+        textStage.canvas.height = 300;
 
         stage = new createjs.Stage("stage");
         stage.canvas.width = window.innerWidth;
@@ -129,7 +129,7 @@
     }
     document.addEventListener("click", function(e){
          e.preventDefault();
-                createText("Data Miner".toUpperCase());
+                createText("Data2Miner".toUpperCase());
     });
 
     function createText(t) {
