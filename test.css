@@ -7,12 +7,14 @@ body {
   margin: 0; padding: 0;
 }
 
-#Fb {
+input[type="text"]{
   border: 1px solid #ddd;
   padding: 6px;
   font-size: 18px;
   width: 200px;
   text-transform: uppercase;
+}
+#Fb{
   top: 30px;
   left: 130px;
 }
