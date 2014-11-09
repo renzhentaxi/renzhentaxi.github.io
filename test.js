@@ -123,18 +123,7 @@
     function addListeners() {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
-            if(textFormed) {
-                explode();
-                if(input.value != '') {
-                    setTimeout(function() {
-                        createText(input.value.toUpperCase());
-                    }, 810);
-                } else {
-                    textFormed = false;
-                }
-            } else {
                 createText("input.value".toUpperCase());
-            }
 
         });
     }
