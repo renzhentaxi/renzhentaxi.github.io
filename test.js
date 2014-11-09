@@ -134,7 +134,6 @@
 
     function createText(t) {
         var fontSize = 860/(t.length);
-        if (fontSize > 160) fontSize = 160;
         text.text = t;
         text.font = "900 "+fontSize+"px 'Source Sans Pro'";
         text.textAlign = 'center';
