@@ -139,7 +139,7 @@
         textStage.update();
 
         var ctx = document.getElementById('text').getContext('2d');
-        var pix = ctx.getImageData(0,0,1200,300).data;
+        var pix = ctx.getImageData(0,0,1800,300).data;
         textPixels = [];
         for (var i = pix.length; i >= 0; i -= 4) {
             if (pix[i] != 0) {
