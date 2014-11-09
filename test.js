@@ -18,7 +18,7 @@
         offsetX = (window.innerWidth-600)/2;
         offsetY = (window.innerHeight-600)/2;
         textStage = new createjs.Stage("text");
-        textStage.canvas.width = 2000;
+        textStage.canvas.width = 1200;
         textStage.canvas.height = 300;
 
         stage = new createjs.Stage("stage");
@@ -139,7 +139,7 @@
         textStage.update();
 
         var ctx = document.getElementById('text').getContext('2d');
-        var pix = ctx.getImageData(0,0,2000,300).data;
+        var pix = ctx.getImageData(0,0,1200,300).data;
         textPixels = [];
         for (var i = pix.length; i >= 0; i -= 4) {
             if (pix[i] != 0) {
