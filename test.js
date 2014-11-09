@@ -123,7 +123,7 @@
     function addListeners() {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
-                createText("input.value".toUpperCase());
+                createText("Searching".toUpperCase());
 
         });
     }
