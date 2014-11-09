@@ -13,8 +13,6 @@ input[type="text"] {
   font-size: 18px;
   width: 200px;
   text-transform: uppercase;
-  top: 30px;
-  left: 130px;
 }
 
 input[type="submit"] {
