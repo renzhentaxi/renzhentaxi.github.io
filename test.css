@@ -10,9 +10,9 @@ body {
 input[type="text"]{
   border: 1px solid #ddd;
   padding: 6px;
-  text-aligh:center;
+  text-align:center;
   font-size: 18px;
-  width: 200px;
+  width: 300px;
   text-transform: uppercase;
 }
 #Fb{
