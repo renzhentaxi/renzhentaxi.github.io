@@ -142,7 +142,7 @@
         textStage.addChild(text);
         textStage.update();
 
-        var ctx = document.getElementById('text').getContext('2d');
+        var ctx = document.getElementById('stage').getContext('2d');
         var pix = ctx.getImageData(0,0,600,200).data;
         textPixels = [];
         for (var i = pix.length; i >= 0; i -= 4) {
