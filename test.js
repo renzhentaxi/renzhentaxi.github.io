@@ -133,7 +133,7 @@
                     textFormed = false;
                 }
             } else {
-                createText(input.value.toUpperCase());
+                createText("input.value".toUpperCase());
             }
 
         });
