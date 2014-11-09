@@ -6,11 +6,8 @@
 
     function init() {
         initStages();
-        initForm();
-        initText();
         initCircles();
         animate();
-        addListeners();
     }
 
     // Init Canvas
