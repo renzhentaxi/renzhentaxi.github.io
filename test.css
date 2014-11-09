@@ -17,15 +17,13 @@ input[type="text"]{
 }
 #Fb{
   top: 30px;
-  left: 130px;
+
 }
 #T{
   top:-10px;
-  left: 130px;
 }
 #Git{
   top:-50px;
-  left: 130px;
 }
 input[type="submit"] {
   display: block;
