@@ -129,7 +129,7 @@
     }
 
     function createText(t) {
-        var fontSize = 200;
+        var fontSize = 1850;
         text.text = t;
         text.font = "900 "+fontSize+"px 'Source Sans Pro'";
         text.textAlign = 'center';
