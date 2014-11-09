@@ -126,12 +126,12 @@
                 createText("Searching".toUpperCase());
 
         });
-        document.getElementById("FB").addEventListener("click", createText("FACEBOOK"));
-        document.getElementById("T").addEventListener("click", createText("TWITTER"));
-        document.getElementById("IG").addEventListener("click", createText("Instagram"));
-        document.getElementById("GH").addEventListener("click", createText("GITHUB"));
-        document.getElementById("SC").addEventListener("click", createText("SOUNDCLOUD"));
-        document.getElementById("RE").addEventListener("click", createText("REDDIT"));
+        document.getElementById("FB").addEventListener("mouseover", createText("FACEBOOK"));
+        document.getElementById("T").addEventListener("mouseover", createText("TWITTER"));
+        document.getElementById("IG").addEventListener("mouseover", createText("Instagram"));
+        document.getElementById("GH").addEventListener("mouseover", createText("GITHUB"));
+        document.getElementById("SC").addEventListener("mouseover", createText("SOUNDCLOUD"));
+        document.getElementById("RE").addEventListener("mouseover", createText("REDDIT"));
     }
 
     function createText(t) {
