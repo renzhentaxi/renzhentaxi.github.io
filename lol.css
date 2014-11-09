@@ -1,0 +1,207 @@
+EARLIER THIS YEAR
+T
+Youshared 8 items
+Jul 30
+Javascript
+background.js
+HTML
+cat.html
+HTML
+about.html
+HTML
+pictures.html
+Style Sheet
+lol.css
+HTML
+facts.html
+Google Drive Folder
+web
+Google Drive Folder
+bridges to computing
+Show less...
+Can view
+Anyone with the link
+T
+Yourenamed an item
+Jul 30
+HTML
+pictures.html
+Copy of pictures.html
+T
+Yourenamed an item
+Jul 30
+Style Sheet
+lol.css
+Copy of lol.css
+T
+Yourenamed an item
+Jul 30
+HTML
+facts.html
+Copy of facts.html
+T
+Yourenamed an item
+Jul 30
+HTML
+cat.html
+Copy of cat.html
+T
+Yourenamed an item
+Jul 30
+Javascript
+background.js
+Copy of background.js
+T
+Yourenamed an item
+Jul 30
+HTML
+about.html
+Copy of about.html
+T
+Yourestricted access to 6 items
+Jul 30
+Javascript
+Copy of background.js
+HTML
+Copy of cat.html
+HTML
+Copy of about.html
+HTML
+Copy of pictures.html
+Style Sheet
+Copy of lol.css
+HTML
+Copy of facts.html
+Anyone
+M
+Matthew Y
+D
+Danny Aksenov
+T
+Youmoved an item to
+Jul 30
+Google Drive Folder
+bridges to computing
+Google Drive Folder
+web
+T
+Youmoved 6 items to
+Jul 30
+Google Drive Folder
+web
+Javascript
+Copy of background.js
+HTML
+Copy of cat.html
+HTML
+Copy of about.html
+HTML
+Copy of pictures.html
+Style Sheet
+Copy of lol.css
+HTML
+Copy of facts.html
+T
+Youuploaded an item
+Jul 30
+Google Drive Folder
+web
+T
+Youmoved an item to
+Jul 30
+Google Drive Folder
+bridges to computing
+Google Drive Folder
+game project Baerde and Yan
+T
+Youuploaded an item
+Jul 30
+Google Drive Folder
+bridges to computing
+Show more activity
+247 MB (2%) of 15 GB used - Manage
+lol.css
+Open with
+@import url(http://fonts.googleapis.com/css?family=Bubblegum+Sans);
+
+span {
+  display: inline-block;
+  opacity: 0;
+  transition: 2s;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 32px;
+}
+canvas {
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+}
+h1 {
+  margin: 0;
+}
+table {
+	margin-top:150px;
+}
+img {
+  border-style:ridge;
+  border-width: 5px;
+  border-color: yellow;
+  position: relative;
+  color: #FF3300;
+  text-align: center;
+  line-height: 200px;
+  margin: 20px;
+  background: #FFFF66;
+  width: 200px;
+  height: 200px;
+  transition: all 1s ease;
+  transform-style: preserve-3d;
+}
+img:hover
+{	
+	height: 75%;
+	width: 75%;
+}
+.card-container {
+  perspective: 700;
+}
+
+.card {
+  position: relative;
+  color: #FF3300;
+  text-align: center;
+  line-height: 200px;
+  margin: 20px;
+  background: #FFFF66;
+  width: 200px;
+  height: 200px;
+  transition: all 1s ease;
+  transform-style: preserve-3d;
+}
+
+
+
+.front, .back {
+  background: #FFFF66;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
