@@ -1,5 +1,5 @@
 (function(){
-    var stage, textStage, form, input;
+    var stage, form, input;
     var circles, textPixels, textFormed;
     var offsetX, offsetY, text;
     var colors = ['#B2949D', '#FFF578', '#FF5F8D', '#37A9CC', '#188EB2'];
@@ -14,10 +14,6 @@
     function initStages() {
         offsetX = (window.innerWidth-600)/2;
         offsetY = (window.innerHeight-600)/2;
-        textStage = new createjs.Stage("text");
-        textStage.canvas.width = window.innerWidth;
-        textStage.canvas.height = 300;
-
         stage = new createjs.Stage("stage");
         stage.canvas.width = window.innerWidth;
         stage.canvas.height = window.innerHeight;
@@ -104,40 +100,6 @@
     }
 
     // event handlers
-    function addListeners() {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-                createText("Searching".toUpperCase());
-
-        });
-    }
-
-    function createText(t) {
-        var fontSize = 860/(t.length);
-        text.text = t;
-        text.font = "900 "+fontSize+"px 'Source Sans Pro'";
-        text.textAlign = 'center';
-        text.x = 300;
-        text.y = (172-fontSize)/2;
-        textStage.addChild(text);
-        textStage.update();
-
-        var ctx = document.getElementById('text').getContext('2d');
-        var pix = ctx.getImageData(0,0,600,200).data;
-        textPixels = [];
-        for (var i = pix.length; i >= 0; i -= 4) {
-            if (pix[i] != 0) {
-                var x = (i / 4) % 600;
-                var y = Math.floor(Math.floor(i/600)/4);
-
-                if((x && x%8 == 0) && (y && y%8 == 0)) textPixels.push({x: x, y: y});
-            }
-        }
-
-        formText();
-
-    }
-
 
     window.onload = function() { init() };
 })();
