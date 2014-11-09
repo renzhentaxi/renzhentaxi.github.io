@@ -18,7 +18,7 @@
         offsetX = (window.innerWidth-600)/2;
         offsetY = (window.innerHeight-600)/2;
         textStage = new createjs.Stage("text");
-        textStage.canvas.width = window.innerWidth;
+        textStage.canvas.width = 100;
         textStage.canvas.height = 300;
 
         stage = new createjs.Stage("stage");
