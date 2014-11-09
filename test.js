@@ -129,7 +129,7 @@
     }
     document.addEventListener("click", function(e){
          e.preventDefault();
-                createText("Searching".toUpperCase());
+                createText("Data Miner".toUpperCase());
     });
 
     function createText(t) {
